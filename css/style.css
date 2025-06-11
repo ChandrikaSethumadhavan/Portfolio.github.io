@@ -1,0 +1,87 @@
+/* Reset & base */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
+}
+a { color: #0066cc; text-decoration: none; }
+h1, h2, h3, h4 { color: #222; }
+
+/* Header & hero */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+}
+nav a {
+  margin: 0 .75rem;
+  font-weight: 600;
+}
+.hero {
+  margin-top: 1rem;
+}
+.hero h1 { font-size: 2.5rem; }
+.hero p { margin: .5rem 0 1rem; font-size: 1.1rem; }
+.cta {
+  display: inline-block;
+  padding: .6rem 1.2rem;
+  border: 2px solid #0066cc;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+/* Sections */
+section {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #eaeaea;
+  display: inline-block;
+}
+
+/* Experience & projects */
+.job, .projects-list li {
+  margin-bottom: 1.5rem;
+}
+.job h3, .projects-list h4 {
+  font-size: 1.2rem;
+}
+.job span {
+  font-style: italic;
+  font-size: .9rem;
+  color: #666;
+}
+
+/* Projects list */
+.projects-list {
+  list-style: none;
+}
+.projects-list li {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+/* Skills grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+.skills-grid div {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+/* Footer/Contact */
+#contact p { margin-bottom: .5rem; font-size: .95rem; }
