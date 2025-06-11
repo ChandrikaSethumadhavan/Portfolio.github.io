@@ -1,2 +1,2 @@
 # Portfolio
-Person portfolio of Chandrika Sethumadhavan
+https://chandrikasethumadhavan.github.io/Portfolio.github.io/
