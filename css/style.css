@@ -144,7 +144,6 @@ section h2 {
 }
 .blob1 { top: 10%; left: 10%; animation-delay: 0s; }
 .blob2 { top: 50%; left: 70%; animation-delay: 5s; }
-.blob3 { top: 80%; left: 30%; animation-delay: 10s; }
 
 @keyframes float {
   0%, 100% { transform: translateY(0) translateX(0); }
