@@ -152,15 +152,22 @@ section h2 {
 
 .tech-bars {
   display: flex;
-  margin-top: 9px; /*was 6px*/
-  height: 12px;
-  border-radius: 5px;
+  margin-top: 8px;
+  height: 24px; /* increased height */
+  border-radius: 6px;
   overflow: hidden;
   background: #e0e0e0;
+  font-size: 12px; /* smaller font to fit */
+  color: white;
+  font-weight: bold;
 }
 
 .bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
   width: var(--width);
   background-color: var(--color);
+  white-space: nowrap;
 }
