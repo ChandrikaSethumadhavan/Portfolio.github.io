@@ -149,3 +149,18 @@ section h2 {
   0%, 100% { transform: translateY(0) translateX(0); }
   50% { transform: translateY(-50px) translateX(50px); }
 }
+
+.tech-bars {
+  display: flex;
+  margin-top: 6px;
+  height: 12px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #e0e0e0;
+}
+
+.bar {
+  height: 100%;
+  width: var(--width);
+  background-color: var(--color);
+}
