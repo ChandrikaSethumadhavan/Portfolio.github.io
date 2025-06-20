@@ -152,7 +152,7 @@ section h2 {
 
 .tech-bars {
   display: flex;
-  margin-top: 6px;
+  margin-top: 9px; /*was 6px*/
   height: 12px;
   border-radius: 5px;
   overflow: hidden;
