@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chandrika Sethumadhavan | Interactive Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <div class="loader-character"></div>
+      <p>Loading</p>
+      <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+  </div>
+
+  <!-- Navigation HUD -->
+  <nav class="hud">
+    <div class="hud-left">
+      <span class="hud-name">CHANDRIKA.EXE</span>
+      <span class="hud-title">Building next gen systems with ML and Sensors</span>
+    </div>
+    <div class="hud-right">
+      <div class="hud-progress">
+        <span class="progress-label">Journey Progress</span>
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section Indicators -->
+  <div class="section-nav" id="sectionNav">
+    <button class="section-dot active" data-section="intro">Start</button>
+    <button class="section-dot" data-section="skills">Skills</button>
+    <button class="section-dot" data-section="projects">Projects</button>
+    <button class="section-dot" data-section="journey">Journey</button>
+    <button class="section-dot" data-section="contact">Contact</button>
+  </div>
+
+  <!-- Scroll Hint -->
+  <div class="scroll-hint" id="scrollHint">
+    <span>Scroll to explore</span>
+    <div class="scroll-arrow"></div>
+  </div>
+
+  <!-- Main Game World -->
+  <div class="game-world" id="gameWorld">
+
+    <!-- Parallax Background Layers -->
+    <div class="parallax-layer sky" data-speed="0.1"></div>
+    <div class="parallax-layer clouds" data-speed="0.2"></div>
+    <div class="parallax-layer mountains" data-speed="0.3"></div>
+    <div class="parallax-layer city" data-speed="0.5"></div>
+
+    <!-- Character -->
+    <div class="character" id="character">
+      <div class="character-sprite"></div>
+      <div class="character-shadow"></div>
+    </div>
+
+    <!-- Ground -->
+    <div class="ground"></div>
+
+    <!-- Sections Container -->
+    <div class="sections-track" id="sectionsTrack">
+
+      <!-- INTRO SECTION -->
+      <section class="game-section intro" id="intro">
+        <div class="section-content">
+          <div class="intro-sign">
+            <h1>Welcome!</h1>
+            <p>I'm <span class="highlight">Chandrika</span></p>
+            <p class="subtitle">ML & Sensors Enthusiast</p>
+          </div>
+          <div class="floating-icons">
+            <div class="float-icon" style="--delay: 0s">
+              <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <div class="float-icon" style="--delay: 0.5s">
+              <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="scene-decoration intro-deco">
+          <div class="circuit-line"></div>
+          <div class="circuit-line"></div>
+          <div class="data-stream"></div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section class="game-section skills" id="skills">
+        <div class="section-content">
+          <h2 class="section-title">
+            <span class="title-icon">&#9733;</span> Skills Unlocked
+          </h2>
+
+          <div class="skill-towers">
+            <!-- Predictive & Prescriptive ML Tower -->
+            <div class="skill-tower" data-level="92">
+              <div class="tower-body">
+                <div class="tower-fill" style="--fill: 92%"></div>
+              </div>
+              <div class="tower-label">Scientific ML & Modeling</div>
+              <div class="tower-items">
+                <span>Signal analysis</span>
+                <span>TensorFlow</span>
+                <span>Physics-informed NNs</span>
+                <span> Sensor Signal analysis</span>
+                <span> Data-driven + physics-based modelling</span>
+                <span>Time-series forecasting</span>
+                <span>scikit-learn</span>
+                <span>LSTM / GRU</span>
+                <span>NSGA-II</span>
+                <span>Optuna</span>
+              </div>
+            </div>
+
+            <!-- Computer Vision Tower -->
+            <div class="skill-tower" data-level="90">
+              <div class="tower-body">
+                <div class="tower-fill" style="--fill: 90%"></div>
+              </div>
+              <div class="tower-label">Vision</div>
+              <div class="tower-items">
+                <span>YOLOv8</span>
+                <span>OpenCV</span>
+                <span>Mask R-CNN</span>
+                <span>Vision Transformers</span>
+                <span>NumPy / SciPy/ PyTorch / TensorFlow</span>
+              </div>
+            </div>
+
+            <!-- Agentic AI / LLMs Tower -->
+            <div class="skill-tower" data-level="85">
+              <div class="tower-body">
+                <div class="tower-fill" style="--fill: 85%"></div>
+              </div>
+              <div class="tower-label">Agentic AI</div>
+              <div class="tower-items">
+                <span>RAG Pipelines</span>
+                <span>OpenAI API</span>
+                <span>Prompt Engineering</span>
+                <span>LLMOps</span>
+              </div>
+            </div>
+
+            <!-- MLOps & Cloud Tower -->
+            <div class="skill-tower" data-level="88">
+              <div class="tower-body">
+                <div class="tower-fill" style="--fill: 88%"></div>
+              </div>
+              <div class="tower-label">MLOps &amp; Cloud</div>
+              <div class="tower-items">
+                <span>AWS SageMaker</span>
+                <span>Docker</span>
+                <span>ONNX / INT8</span>
+                <span>FastAPI / Flask</span>
+                <span>CI/CD</span>
+                <span>CodeCarbon</span>
+              </div>
+            </div>
+
+            <!-- Embedded & IoT Tower -->
+            <div class="skill-tower" data-level="86">
+              <div class="tower-body">
+                <div class="tower-fill" style="--fill: 86%"></div>
+              </div>
+              <div class="tower-label">Embedded &amp; IoT</div>
+              <div class="tower-items">
+                <span>Raspberry Pi</span>
+                <span>ESP32 / MSP430</span>
+                <span>PCB Design (Eagle)</span>
+                <span>Keil uVision</span>
+                <span>MQTT / TTN</span>
+                <span>InfluxDB / Grafana</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scene-decoration skills-deco">
+          <div class="gear gear-1"></div>
+          <div class="gear gear-2"></div>
+          <div class="gear gear-3"></div>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section class="game-section projects" id="projects">
+        <div class="section-content">
+          <h2 class="section-title">
+            <span class="title-icon">&#9733;</span> Side Projects
+          </h2>
+
+          <div class="project-cards">
+            <div class="project-card" data-project="surgidoc">
+              <div class="card-badge">&#9889; BFH 2025</div>
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"/></svg>
+              </div>
+              <h3>SurgiDoc AI</h3>
+              <p>Agentic GenAI for surgical documentation (RAG + EndoViT)</p>
+              <span class="click-hint">Click for details</span>
+            </div>
+
+            <div class="project-card" data-project="mealsormiles">
+              <div class="card-badge">&#9889; BFH 2025</div>
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/></svg>
+              </div>
+              <h3>Meals or Miles</h3>
+              <p>Recipe carbon analyzer with vector embeddings</p>
+              <span class="click-hint">Click for details</span>
+            </div>
+
+            <div class="project-card" data-project="automl">
+              <div class="card-badge">&#9881; AutoML</div>
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+              <h3>Carbon-Aware AutoML</h3>
+              <p>Zero-cost NAS + Optuna with CodeCarbon tracking</p>
+              <span class="click-hint">Click for details</span>
+            </div>
+
+            <div class="project-card" data-project="onnx">
+              <div class="card-badge">&#9733; ONNX</div>
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18L19.82 8 12 11.82 4.18 8 12 4.18zM4 9.65l7 3.5v7.7l-7-3.5v-7.7zm9 11.2v-7.7l7-3.5v7.7l-7 3.5z"/></svg>
+              </div>
+              <h3>Deployment-Aware AutoML</h3>
+              <p>ONNX export + INT8 quantisation, 8.54&times; GPU speedup</p>
+              <span class="click-hint">Click for details</span>
+            </div>
+
+            <div class="project-card" data-project="msp430">
+              <div class="card-badge">&#9881; Embedded</div>
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></svg>
+              </div>
+              <h3>MSP430 Microcontroller</h3>
+              <p>Embedded C: ADCs, interrupts, timers, watchdog</p>
+              <span class="click-hint">Click for details</span>
+            </div>
+
+            <div class="project-card" data-project="prediflex">
+              <div class="card-badge">&#9889; Microsystems</div>
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              </div>
+              <h3>Prediflex Smart Insole</h3>
+              <p>Energy-harvesting piezo system for pediatric gait</p>
+              <span class="click-hint">Click for details</span>
+            </div>
+          </div>
+        </div>
+        <div class="scene-decoration proj-deco">
+          <div class="trophy"></div>
+          <div class="stars-burst"></div>
+        </div>
+      </section>
+
+      <!-- JOURNEY SECTION (Combined Work + Education) -->
+      <section class="game-section journey" id="journey">
+        <div class="section-content" style="max-width: none; width: auto;">
+          <h2 class="section-title">
+            <span class="title-icon">&#9733;</span> My Journey
+          </h2>
+
+          <div class="journey-buildings" style="display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important; gap: 20px; align-items: flex-end;">
+            <!-- Building 1: Current - Master's Thesis -->
+            <div class="exp-building current" style="flex: 0 0 auto;">
+              <div class="building-flag">NOW</div>
+              <div class="building-top"></div>
+              <div class="building-body">
+                <div class="building-window"></div>
+                <div class="building-window"></div>
+                <div class="building-window"></div>
+                <div class="building-door"></div>
+              </div>
+              <div class="building-info">
+                <h3>ML Research Scientist</h3>
+                <p class="company">IMTEK, Uni Freiburg</p>
+                <p class="desc">Physics-informed LSTM/GRU for ANT-EPO O&#8322; release &mdash; SSRN 2025</p>
+              </div>
+            </div>
+
+            <!-- Building 2: ECOSENSE -->
+            <div class="exp-building" style="flex: 0 0 auto;">
+              <div class="building-flag">2024</div>
+              <div class="building-top"></div>
+              <div class="building-body">
+                <div class="building-window"></div>
+                <div class="building-window"></div>
+                <div class="building-door"></div>
+              </div>
+              <div class="building-info">
+                <h3>Embedded Systems Working Student</h3>
+                <p class="company">ECOSENSE, IMTEK</p>
+                <p class="desc">PCB design (Eagle), MQTT&rarr;InfluxDB&rarr;Grafana pipeline</p>
+              </div>
+            </div>
+
+            <!-- Building 3: Fraunhofer -->
+            <div class="exp-building" style="flex: 0 0 auto;">
+              <div class="building-flag">2023</div>
+              <div class="building-top"></div>
+              <div class="building-body">
+                <div class="building-window"></div>
+                <div class="building-window"></div>
+                <div class="building-window"></div>
+                <div class="building-window"></div>
+                <div class="building-door"></div>
+              </div>
+              <div class="building-info">
+                <h3>Image Processing &amp; ML Working Student</h3>
+                <p class="company">Fraunhofer ISE</p>
+                <p class="desc">YOLOv8 inference pipeline for solar-cell QC &mdash; 99.4% accuracy</p>
+              </div>
+            </div>
+
+            <!-- Education Building 1: Freiburg -->
+            <div class="exp-building edu-building" style="flex: 0 0 auto;">
+              <div class="building-flag edu">2023</div>
+              <div class="building-top edu"></div>
+              <div class="building-body">
+                <div class="building-window"></div>
+                <div class="building-window"></div>
+                <div class="building-window"></div>
+                <div class="building-door"></div>
+              </div>
+              <div class="building-info">
+                <h3>M.Sc. Embedded Systems</h3>
+                <p class="company">Uni Freiburg</p>
+                <p class="desc">Microsystems Engineering</p>
+              </div>
+            </div>
+
+            <!-- Education Building 2: Anna University -->
+            <div class="exp-building edu-building" style="flex: 0 0 auto;">
+              <div class="building-flag edu">2019</div>
+              <div class="building-top edu"></div>
+              <div class="building-body">
+                <div class="building-window"></div>
+                <div class="building-window"></div>
+                <div class="building-door"></div>
+              </div>
+              <div class="building-info">
+                <h3>B.E. Electrical Eng.</h3>
+                <p class="company">Anna University</p>
+                <p class="desc">Chennai, India</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scene-decoration journey-deco">
+          <div class="street-lamp"></div>
+          <div class="street-lamp"></div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="game-section contact" id="contact">
+        <div class="section-content">
+          <h2 class="section-title">
+            <span class="title-icon">&#9733;</span> Connect
+          </h2>
+
+          <div class="contact-terminal">
+            <div class="terminal-header">
+              <span class="terminal-dot"></span>
+              <span class="terminal-dot"></span>
+              <span class="terminal-dot"></span>
+              <span class="terminal-title">contact.sh</span>
+            </div>
+            <div class="terminal-body">
+              <p class="terminal-line"><span class="prompt">$</span> echo "Let's build something amazing together!"</p>
+              <p class="terminal-output">Let's build something amazing together!</p>
+              <p class="terminal-line"><span class="prompt">$</span> cat contact_info.txt</p>
+              <div class="contact-links">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=chandrikasethu06@gmail.com" target="_blank" class="contact-btn">
+                  <span class="btn-icon">&#9993;</span> Email
+                </a>
+                <a href="https://github.com/ChandrikaSethumadhavan" target="_blank" class="contact-btn">
+                  <span class="btn-icon">&#9784;</span> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/chandrika-s-59455a1a8/" target="_blank" class="contact-btn">
+                  <span class="btn-icon">&#9901;</span> LinkedIn
+                </a>
+              </div>
+              <p class="terminal-line typing"><span class="prompt">$</span> <span class="cursor">_</span></p>
+            </div>
+          </div>
+
+          <div class="end-message">
+            <p>Thanks for exploring my journey!</p>
+            <a href="../index.html" class="back-link">&#8592; Back to Main Portfolio</a>
+          </div>
+        </div>
+        <div class="scene-decoration contact-deco">
+          <div class="satellite"></div>
+          <div class="signal-waves"></div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- Project Modal -->
+  <div class="project-modal" id="projectModal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="modal-header">
+        <span class="modal-badge" id="modalBadge"></span>
+        <h2 id="modalTitle"></h2>
+      </div>
+      <div class="modal-body">
+        <p id="modalDescription"></p>
+
+        <!-- Video Demo Section -->
+        <div class="modal-video" id="modalVideoSection" style="display: none;">
+          <h4>Demo Video:</h4>
+          <video id="modalVideo" controls>
+            <source id="modalVideoSource" src="" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="modal-tech">
+          <h4>Technologies Used:</h4>
+          <div class="tech-tags" id="modalTech"></div>
+        </div>
+        <div class="modal-highlights">
+          <h4>Key Highlights:</h4>
+          <ul id="modalHighlights"></ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="modal-github-btn" id="modalGithub" target="_blank">
+          <span>&#9784;</span> View on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

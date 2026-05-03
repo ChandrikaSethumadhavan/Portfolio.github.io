@@ -3,143 +3,412 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Chandrika Sethumadhavan</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <title>Chandrika Sethumadhavan | Embedded Systems & ML Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="animated-blobs">
-  <div class="blob blob1"></div>
-  <div class="blob blob2"></div>
-  
-</div>
-  <header id="home">
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <div class="hero">
-      <h1>Chandrika Sethumadhavan</h1>
-      <p>Embedded Systems Engineer | Image Processing | ML Enthusiast</p>
-      <a class="cta" href="resume.pdf" target="_blank">Download Resume</a>
+  <!-- Left Sidebar Navigation -->
+  <nav class="sidebar">
+    <div class="nav-inner">
+      <a href="#intro" class="nav-link active">Intro</a>
+      <a href="#portfolio" class="nav-link">Portfolio</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#contact" class="nav-link">Contact</a>
     </div>
-  </header>
+  </nav>
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Currently pursuing an M.Sc. in Embedded Systems Engineering at University of Freiburg. Passionate about embedded development, image processing and machine learning.</p>
-    </section>
+  <!-- Main Content -->
+  <main class="main-content">
 
-    <section id="experience">
-      <h2>Experience</h2>
-
-      <div class="job">
-        <h3>Work Student – ECOSENSE, IMTEK, Uni Freiburg</h3>
-        <span>Sep 2024 – Present</span>
-        <ul>
-          <li>Designed and laid out PCBs using Eagle; assembled and soldered components.</li>
-          <li>Firmware flashing and testing using Keil uVision; verified signal processing and comms.</li>
-        </ul>
-      </div>
-
-      <div class="job">
-        <h3>Student Assistant – Fraunhofer ISE, Freiburg</h3>
-        <span>Dec 2023 – Jun 2024</span>
-        <ul>
-          <li>Built defect-detection pipeline with OpenCV, PIL, NumPy and SciPy; boosted accuracy to 99.4 %.</li>
-          <li>Collected data from 3D laser microscope (LEXT) to optimise solar-cell finger-line printing.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul class="projects-list">
-        <li>
-          <h4>MSP430 Microcontroller Projects</h4>
-          <p>LED toggling, ADCs, interrupts, WDT resets, task management via preprocessor.</p>
-          <a href="https://github.com/ChandrikaSethumadhavan/MSP430-Microcontroller-projects.git" target="_blank">GitHub</a>
-        </li>
-        <li>
-          <h4>Predictive Model for Academic Performance</h4>
-          <p>End-to-end ML pipeline with Ridge, CatBoost; deployed via Flask on AWS CI/CD.</p>
-          <div class="tech-bars">
-            <div class="bar" style="--width: 60%; --color: #F48024;">Python</div>
-            <div class="bar" style="--width: 60%; --color: #326CE5;">Flask</div>
-            <div class="bar" style="--width: 60%; --color: #FF9900;">CatBoost</div>
+    <!-- Intro Section -->
+    <section id="intro" class="section intro-section">
+      <div class="intro-wrapper">
+        <div class="profile-image">
+          <!-- PLACEHOLDER: Add your profile image here -->
+          <div class="image-placeholder">
+            <span>Photo</span>
           </div>
-          <a href="https://github.com/..." target="_blank">GitHub</a>
-        </li>
-
-        <li>
-          <h4>Railway-track Defect Detection</h4>
-          <p>OpenCV and YOLOv8 for crack and corrosion detection; real-time alerts to maintenance teams.</p>
-        </li>
-        <li>
-          <h4>“Prediflex” Smart Insole (Coursework)</h4>
-          <p>Energy-harvesting microcontroller insole for pediatric gait analysis; piezoelectric sensors and wireless comms.</p>
-          <a href="https://github.com/ChandrikaSethumadhavan/Microsystems_Design_Prediflex" target="_blank">GitHub</a>
-        </li>
-      </ul>
-    </section>
-
-    <section id="skills">
-      <h2>Hands on skills</h2>
-      <div class="skills-grid">
-        <div>
-          <h4>Programming</h4>
-          <p>Python, C, Embedded C</p>
         </div>
-        <div>
-          <h4>ML & Vision</h4>
-          <p>OpenCV, YOLOv8, TensorFlow, TinyML, NumPy, SciPy</p>
-        </div>
-        <div>
-          <h4>Embedded</h4>
-          <p>MSP430, ESP32, Raspberry Pi; PCB design, soldering, sensor integration</p>
-        </div>
-        <div>
-          <h4>Tools</h4>
-          <p>AWS, Docker, Flask, Git, Keil uVision, MATLAB, VS Code</p>
+        <div class="intro-content">
+          <h1>Chandrika Sethumadhavan</h1>
+          <p class="title-text">Embedded Systems Engineer, Machine Learning and IoT Enthusiast.</p>
+          <p class="intro-description">
+            I'm a Master's student at the University of Freiburg specializing in embedded systems and machine learning.
+            Currently working on physics-informed ML for biomedical applications at IMTEK.
+            Previously developed computer vision systems at Fraunhofer ISE achieving 99.4% accuracy.
+          </p>
+          <div class="intro-links">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=chandrikasethu06@gmail.com&su=Hello%20Chandrika" target="_blank" class="btn">Get In Touch</a>
+            <a href="#portfolio" class="btn btn-outline">View Work</a>
+            <a href="main.pdf" download class="btn btn-outline">Download Resume</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- <section id="education">
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <strong>M.Sc. Embedded Systems Engineering</strong>, University of Freiburg<br>
-          <em>GPA 2.2 | 2023 – Present</em>
-        </li>
-        <li>
-          <strong>B.E. Electrical & Electronics</strong>, Anna University, India<br>
-          <em>GPA 1.4 | 2019 – 2023</em>
-        </li>
-      </ul>
-    </section> -->
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+      <h2 class="section-title">Portfolio</h2>
 
-    <section id="publications">
-      <h2>Publications</h2>
-      <ul>
-        <li>
-          “Autonomous Delivery Vehicle Using Raspberry Pi and Computer Vision,” 
-          PCCDA’23 (Springer), 2023.
-        </li>
-      </ul>
+      <div class="filter-nav">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ml">Machine Learning</button>
+        <button class="filter-btn" data-filter="embedded">Embedded</button>
+        <button class="filter-btn" data-filter="vision">Computer Vision</button>
+        <button class="filter-btn" data-filter="iot">IoT</button>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <!-- Project 1: Thesis -->
+        <div class="portfolio-item" data-category="ml">
+          <div class="portfolio-image">
+            <!-- PLACEHOLDER: Add project image here -->
+            <div class="image-placeholder large">
+              <span>Project Image</span>
+            </div>
+            <span class="project-badge ongoing">Ongoing</span>
+          </div>
+          <div class="portfolio-info">
+            <h3>Physics-Informed ML for O2 Release Prediction</h3>
+            <p>Master thesis at IMTEK building a physics-informed ML framework to predict O2 release from ANT-EPO systems.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">PINNs</span>
+              <span class="tag">XGBoost</span>
+              <span class="tag">LSTM</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Industrial Vision -->
+        <div class="portfolio-item" data-category="vision">
+          <div class="portfolio-image">
+            <div class="image-placeholder large">
+              <span>Project Image</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Industrial Vision QC Pipeline</h3>
+            <p>Image processing pipeline for solar panel quality control at Fraunhofer ISE. YOLOv8-based defect detection achieving 99.4% accuracy.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">YOLOv8</span>
+              <span class="tag">OpenCV</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: ML Pipeline -->
+        <a href="https://github.com/ChandrikaSethumadhavan/mlproject" target="_blank" class="portfolio-item" data-category="ml">
+          <div class="portfolio-image">
+            <div class="image-placeholder large">
+              <span>Project Image</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>ML Pipeline: Academic Performance</h3>
+            <p>End-to-end ML pipeline achieving R² score of 0.88 with Ridge and CatBoost models. Flask web app deployed on AWS with CI/CD.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Flask</span>
+              <span class="tag">CatBoost</span>
+              <span class="tag">AWS</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project 4: IoT Environmental -->
+        <div class="portfolio-item" data-category="iot">
+          <div class="portfolio-image">
+            <div class="image-placeholder large">
+              <span>Project Image</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>IoT Environmental Monitoring</h3>
+            <p>ECOSENSE project: PCB design with Eagle, Python MQTT logging from TTN, InfluxDB Cloud integration, and Grafana dashboards.</p>
+            <div class="project-tags">
+              <span class="tag">MQTT</span>
+              <span class="tag">InfluxDB</span>
+              <span class="tag">Grafana</span>
+              <span class="tag">Eagle</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: MSP430 -->
+        <a href="https://github.com/ChandrikaSethumadhavan/MSP430-Microcontroller-projects" target="_blank" class="portfolio-item" data-category="embedded">
+          <div class="portfolio-image">
+            <div class="image-placeholder large">
+              <span>Project Image</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>MSP430 Microcontroller Projects</h3>
+            <p>Embedded systems development: LED toggling, shift registers, ADCs, interrupt handling, timers, and Watchdog Timers.</p>
+            <div class="project-tags">
+              <span class="tag">C</span>
+              <span class="tag">MSP430</span>
+              <span class="tag">Embedded C</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project 6: Prediflex -->
+        <a href="https://github.com/ChandrikaSethumadhavan/Microsystems_Design_Prediflex" target="_blank" class="portfolio-item" data-category="embedded iot">
+          <div class="portfolio-image">
+            <div class="image-placeholder large">
+              <span>Project Image</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Prediflex Smart Insole</h3>
+            <p>Energy-harvesting microcontroller system with piezoelectric sensors for pediatric gait analysis and real-time assessment.</p>
+            <div class="project-tags">
+              <span class="tag">ESP32</span>
+              <span class="tag">Piezoelectric</span>
+              <span class="tag">PCB Design</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project 7: Railway Detection -->
+        <div class="portfolio-item" data-category="vision">
+          <div class="portfolio-image">
+            <div class="image-placeholder large">
+              <span>Project Image</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Railway Track Defect Detection</h3>
+            <p>Computer vision system using OpenCV and YOLOv8 for crack and corrosion detection with real-time maintenance alerts.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">YOLOv8</span>
+              <span class="tag">OpenCV</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 8: Hackathon -->
+        <a href="https://github.com/ChandrikaSethumadhavan/meals-or-miles" target="_blank" class="portfolio-item" data-category="ml">
+          <div class="portfolio-image">
+            <div class="image-placeholder large">
+              <span>Project Image</span>
+            </div>
+            <span class="project-badge hackathon">Black Forest 2025</span>
+          </div>
+          <div class="portfolio-info">
+            <h3>Meals or Miles</h3>
+            <p>Recipe carbon footprint analyzer using vector embeddings for multi-language ingredient matching with nutritional balance optimization.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Flask</span>
+              <span class="tag">Vector Embeddings</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project 9: Research Publication -->
+        <a href="https://link.springer.com/chapter/10.1007/978-981-99-3010-4_30" target="_blank" class="portfolio-item" data-category="vision embedded">
+          <div class="portfolio-image">
+            <div class="image-placeholder large">
+              <span>Project Image</span>
+            </div>
+            <span class="project-badge publication">Springer 2023</span>
+          </div>
+          <div class="portfolio-info">
+            <h3>Autonomous Delivery Vehicle</h3>
+            <p>Published paper on autonomous delivery vehicle using Raspberry Pi and computer vision for navigation and obstacle avoidance.</p>
+            <div class="project-tags">
+              <span class="tag">Raspberry Pi</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:chandrikasethu06@gmail.com">chandrikasethu06@gmail.com</a></p>
-      <p>Languages: English (C2), German (A2)</p>
+    <!-- Experience & Skills Section -->
+    <section id="experience" class="section">
+      <div class="exp-skills-container">
+
+        <!-- Experience Column with Timeline -->
+        <div class="experience-column">
+          <h2 class="section-title">Experience</h2>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">Ongoing</div>
+              <div class="timeline-content">
+                <h3>Master's Thesis Researcher</h3>
+                <p class="company">IMTEK, University of Freiburg</p>
+                <p>Physics-informed ML framework to predict O2 release from ANT-EPO systems using PINNs and various ML strategies.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">Sept 2024 - Present</div>
+              <div class="timeline-content">
+                <h3>Work Student - IoT & Embedded</h3>
+                <p class="company">ECOSENSE, IMTEK, Uni Freiburg</p>
+                <p>PCB design with Eagle, Python MQTT logging from TTN, InfluxDB Cloud integration, and Grafana dashboards.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">Dec 2023 - June 2024</div>
+              <div class="timeline-content">
+                <h3>Work Student - Computer Vision</h3>
+                <p class="company">Fraunhofer ISE, Freiburg</p>
+                <p>Image processing pipeline for solar panel QC with YOLOv8 defect detection achieving 99.4% accuracy.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2023 - Present</div>
+              <div class="timeline-content">
+                <h3>M.Sc. Embedded Systems Engineering</h3>
+                <p class="company">University of Freiburg</p>
+                <p>Specialization in embedded systems, sensor technology, and machine learning.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2019 - 2023</div>
+              <div class="timeline-content">
+                <h3>B.E. Electrical & Electronics Engineering</h3>
+                <p class="company">Anna University, India</p>
+                <p>Foundation in electronics, circuit design, and embedded systems.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills Column - Bento Grid -->
+        <div class="skills-column">
+          <h2 class="section-title">Skills</h2>
+
+          <div class="skills-bento">
+            <!-- Large Card: ML -->
+            <div class="skill-card skill-card-large">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+              </div>
+              <h4>Machine Learning</h4>
+              <div class="skill-list">
+                <span>TensorFlow</span><span>YOLOv8</span><span>OpenCV</span><span>NumPy</span><span>SciPy</span><span>Edge Impulse</span><span>TinyML</span><span>PINNs</span>
+              </div>
+            </div>
+
+            <!-- Medium Card: Embedded -->
+            <div class="skill-card skill-card-medium">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/>
+                </svg>
+              </div>
+              <h4>Embedded</h4>
+              <div class="skill-list">
+                <span>Raspberry Pi</span><span>MSP430</span><span>ESP32</span><span>PCB Design</span><span>Keil uVision</span>
+              </div>
+            </div>
+
+            <!-- Small Card: Programming -->
+            <div class="skill-card skill-card-small">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <polyline points="16,18 22,12 16,6"/><polyline points="8,6 2,12 8,18"/>
+                </svg>
+              </div>
+              <h4>Code</h4>
+              <div class="skill-list">
+                <span>Python</span><span>C</span><span>JavaScript</span>
+              </div>
+            </div>
+
+            <!-- Small Card: IoT -->
+            <div class="skill-card skill-card-small">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M5.636 18.364a9 9 0 010-12.728M18.364 5.636a9 9 0 010 12.728M8.464 15.536a5 5 0 010-7.072M15.536 8.464a5 5 0 010 7.072"/><circle cx="12" cy="12" r="1"/>
+                </svg>
+              </div>
+              <h4>IoT</h4>
+              <div class="skill-list">
+                <span>MQTT</span><span>InfluxDB</span><span>Grafana</span><span>TTN</span>
+              </div>
+            </div>
+
+            <!-- Medium Card: DevOps -->
+            <div class="skill-card skill-card-medium">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+                </svg>
+              </div>
+              <h4>DevOps</h4>
+              <div class="skill-list">
+                <span>AWS</span><span>Docker</span><span>GitHub</span><span>Flask</span><span>CI/CD</span>
+              </div>
+            </div>
+
+            <!-- Small Card: Languages -->
+            <div class="skill-card skill-card-small accent">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+                </svg>
+              </div>
+              <h4>Languages</h4>
+              <div class="skill-list">
+                <span>English C2</span><span>German B1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-text">I'm currently open to new opportunities in embedded systems, machine learning, and computer vision. Let's connect.</p>
+
+      <div class="contact-links">
+        <a href="mailto:chandrikasethu06@gmail.com" class="contact-item">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">chandrikasethu06@gmail.com</span>
+        </a>
+        <a href="https://github.com/ChandrikaSethumadhavan" target="_blank" class="contact-item">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">ChandrikaSethumadhavan</span>
+        </a>
+        <a href="https://www.linkedin.com/in/chandrika-s-59455a1a8/" target="_blank" class="contact-item">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">chandrika-sethumadhavan</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2026 Chandrika Sethumadhavan. All Rights Reserved.</p>
+    </footer>
+
   </main>
 
   <script src="js/main.js"></script>
