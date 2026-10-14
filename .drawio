@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="SezWagQknfbaBZPZu2B7" name="Profile Canvas">
-    <mxGraphModel dx="3233" dy="2556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1854" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,14 +10,14 @@
         <mxCell id="S0ktrVen0QgGkGSC3KCO-131" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Education&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="200" width="200" x="410" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="S0ktrVen0QgGkGSC3KCO-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;align=center;verticalAlign=middle;fontSize=13;" value="&lt;b&gt;Chandrika Sethumadhavan&lt;/b&gt;&lt;br&gt;M.Sc. Embedded Systems Engineering, University of Freiburg&lt;div&gt;Applied AI Specialisation&lt;br&gt;chandrikasethu06@gmail.com&lt;/div&gt;" vertex="1">
+        <mxCell id="S0ktrVen0QgGkGSC3KCO-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;align=center;verticalAlign=middle;fontSize=13;" value="&lt;b&gt;Chandrika Sethumadhavan&lt;/b&gt;&lt;br&gt;M.Sc. Embedded Systems Engineering, University of Freiburg&lt;div&gt;Informatik &amp;amp; Applied AI Specialisation&lt;br&gt;chandrikasethu06@gmail.com&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="420" x="500" y="4.74" as="geometry" />
         </mxCell>
         <mxCell id="S0ktrVen0QgGkGSC3KCO-2" parent="1" style="text;html=1;align=center;fontSize=14;" value="&lt;b&gt;Timeline&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="200" x="300" y="120" as="geometry" />
         </mxCell>
         <mxCell id="S0ktrVen0QgGkGSC3KCO-3" parent="1" style="text;html=1;align=center;fontSize=14;" value="&lt;b&gt;Projects and Work&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="220" x="620" y="120" as="geometry" />
+          <mxGeometry height="30" width="220" x="205" y="434.54" as="geometry" />
         </mxCell>
         <mxCell id="S0ktrVen0QgGkGSC3KCO-5" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#666666;" value="">
           <mxGeometry relative="1" as="geometry">
@@ -25,23 +25,23 @@
             <mxPoint x="400" y="1760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S0ktrVen0QgGkGSC3KCO-6" parent="1" style="text;html=1;align=right;fontSize=11;fontStyle=1" value="Aug 2019" vertex="1">
+        <mxCell id="S0ktrVen0QgGkGSC3KCO-6" parent="1" style="text;html=1;align=right;fontSize=11;fontStyle=1" value="2019- 2022" vertex="1">
           <mxGeometry height="20" width="100" x="290" y="170" as="geometry" />
         </mxCell>
         <mxCell id="S0ktrVen0QgGkGSC3KCO-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="B.E. Electrical and Electronics Engineering&lt;br&gt;Chennai, India&lt;br&gt;&lt;i&gt;GPA 1.4&lt;/i&gt;" vertex="1">
           <mxGeometry height="70" width="180" x="420" y="185" as="geometry" />
         </mxCell>
-        <mxCell id="S0ktrVen0QgGkGSC3KCO-8" parent="1" style="text;html=1;align=right;fontSize=11;fontStyle=1" value="Oct 2023" vertex="1">
+        <mxCell id="S0ktrVen0QgGkGSC3KCO-8" parent="1" style="text;html=1;align=right;fontSize=11;fontStyle=1" value="2023 - 2026" vertex="1">
           <mxGeometry height="20" width="100" x="290" y="285" as="geometry" />
         </mxCell>
         <mxCell id="S0ktrVen0QgGkGSC3KCO-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="M.Sc. Embedded Systems Engineering&lt;br&gt;University of Freiburg&lt;br&gt;&lt;i&gt;Final GPA 1.9, thesis 1.3&lt;/i&gt;" vertex="1">
           <mxGeometry height="70" width="180" x="420" y="265" as="geometry" />
         </mxCell>
         <mxCell id="S0ktrVen0QgGkGSC3KCO-10" parent="1" style="text;html=1;align=right;fontSize=11;fontStyle=1" value="Dec 2023&#xa;to Jun 2024" vertex="1">
-          <mxGeometry height="30" width="110" x="280" y="400" as="geometry" />
+          <mxGeometry height="30" width="110" x="280" y="565" as="geometry" />
         </mxCell>
         <mxCell id="S0ktrVen0QgGkGSC3KCO-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="&lt;b&gt;Research Assistant&lt;/b&gt;&lt;br&gt;Fraunhofer ISE, Freiburg&lt;br&gt;Machine learning in production" vertex="1">
-          <mxGeometry height="70" width="180" x="410" y="400" as="geometry" />
+          <mxGeometry height="70" width="180" x="410" y="545" as="geometry" />
         </mxCell>
         <mxCell id="S0ktrVen0QgGkGSC3KCO-12" parent="1" style="text;html=1;align=right;fontSize=11;fontStyle=1" value="Sep 2024&#xa;to Nov 2025" vertex="1">
           <mxGeometry height="30" width="110" x="280" y="770" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry height="80" width="180" x="420" y="1675" as="geometry" />
         </mxCell>
         <mxCell id="S0ktrVen0QgGkGSC3KCO-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontSize=10;spacingLeft=6;" value="&lt;b&gt;Defect Detection on a manufacturing Line&lt;/b&gt;&lt;br&gt;YOLOv8 at 94.4 percent on production data,&lt;br&gt;replaced a manual review step&lt;br&gt;&lt;i&gt;Fraunhofer ISE&lt;/i&gt;" vertex="1">
-          <mxGeometry height="80" width="210" x="620" y="395" as="geometry" />
+          <mxGeometry height="80" width="210" x="610" y="535" as="geometry" />
         </mxCell>
         <mxCell id="S0ktrVen0QgGkGSC3KCO-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontSize=10;spacingLeft=6;" value="&lt;b&gt;Distributed Sensor Data Platform&lt;/b&gt;&lt;br&gt;Real time collection, validation and&lt;br&gt;monitoring across deployed nodes&lt;br&gt;&lt;i&gt;ECOSENSE, IMTEK&lt;/i&gt;" vertex="1">
           <mxGeometry height="80" width="210" x="620" y="765" as="geometry" />
@@ -287,20 +287,38 @@
         <mxCell id="S0ktrVen0QgGkGSC3KCO-151" parent="1" style="whiteSpace=wrap;html=1;fillColor=#F5EF76;strokeColor=#d6b656;" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Skills overview&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="268" width="70" x="1430" y="1165.5" as="geometry" />
         </mxCell>
-        <mxCell id="S0ktrVen0QgGkGSC3KCO-152" parent="1" style="whiteSpace=wrap;html=1;fillColor=#F5EF76;strokeColor=#d6b656;" value="&lt;b&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Skills overview&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="53.88" width="220" x="860" y="350" as="geometry" />
+        <mxCell id="S0ktrVen0QgGkGSC3KCO-152" parent="1" style="whiteSpace=wrap;html=1;fillColor=#F5EF76;strokeColor=#d6b656;" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Skills overview&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="429" x="831" y="390" as="geometry" />
         </mxCell>
         <mxCell id="S0ktrVen0QgGkGSC3KCO-153" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Object detection - YOLOv8" vertex="1">
-          <mxGeometry height="40.91" width="100" x="860" y="420" as="geometry" />
+          <mxGeometry height="40.91" width="100" x="840" y="537" as="geometry" />
         </mxCell>
         <mxCell id="S0ktrVen0QgGkGSC3KCO-155" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Python" vertex="1">
-          <mxGeometry height="40.91" width="100" x="972.5" y="420" as="geometry" />
-        </mxCell>
-        <mxCell id="S0ktrVen0QgGkGSC3KCO-156" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="AWS" vertex="1">
-          <mxGeometry height="40.91" width="100" x="860" y="475" as="geometry" />
+          <mxGeometry height="40.91" width="100" x="952.5" y="537" as="geometry" />
         </mxCell>
         <mxCell id="S0ktrVen0QgGkGSC3KCO-157" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="LLM / RAG guardrails" vertex="1">
           <mxGeometry height="60" width="120" x="1510" y="1165.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lUt9fqpn9Q42J06rp3xT-1" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Linux" vertex="1">
+          <mxGeometry height="40.91" width="100" x="1067.5" y="537" as="geometry" />
+        </mxCell>
+        <mxCell id="lUt9fqpn9Q42J06rp3xT-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="&lt;b&gt;Software Systems Engineer&lt;/b&gt;&lt;div&gt;&lt;b&gt;TCS, India&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="180" x="410" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="lUt9fqpn9Q42J06rp3xT-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontSize=10;spacingLeft=6;" value="Industrial IoT and predictive maintenance platform" vertex="1">
+          <mxGeometry height="80" width="210" x="600" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="lUt9fqpn9Q42J06rp3xT-4" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Python" vertex="1">
+          <mxGeometry height="40.91" width="100" x="831" y="434.54" as="geometry" />
+        </mxCell>
+        <mxCell id="lUt9fqpn9Q42J06rp3xT-6" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="GitLab" vertex="1">
+          <mxGeometry height="40.91" width="100" x="940" y="434.54" as="geometry" />
+        </mxCell>
+        <mxCell id="lUt9fqpn9Q42J06rp3xT-7" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="AWS&amp;nbsp;" vertex="1">
+          <mxGeometry height="40.91" width="100" x="1052.5" y="434.54" as="geometry" />
+        </mxCell>
+        <mxCell id="lUt9fqpn9Q42J06rp3xT-8" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="FastAPI" vertex="1">
+          <mxGeometry height="40.91" width="100" x="1160" y="434.54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
